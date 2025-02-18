@@ -56,6 +56,9 @@ Carepulse é uma aplicação de gerenciamento de consultas médicas. Este projet
 2. Preencha as informações necessárias do paciente e do médico.
 3. Clique em **"Agendar"** para confirmar a consulta.
 
+![Captura de tela 2025-02-17 222605](https://github.com/user-attachments/assets/25763679-e592-4fc9-aa29-63055d0b6981)
+
+
 ### ❌ Cancelar uma Consulta
 1. Navegue até a lista de consultas.
 2. Encontre a consulta que deseja cancelar.
