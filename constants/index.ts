@@ -1,4 +1,6 @@
 import ScheduledIcon from '../src/public/assets/icons/check.svg'
+import PendingIcon from '../src/public/assets/icons/pending.svg'
+import CancelledIcon from '../src/public/assets/icons/cancelled.svg'
 export const GenderOptions = ["male", "female", "other"];
 import Green from "@/public/assets/images/dr-green.png"
 import Cameron from "@/public/assets/images/dr-cameron.png"
@@ -90,6 +92,6 @@ export const Doctors = [
 
 export const StatusIcon = {
   scheduled: ScheduledIcon,
-  pending: "/assets/icons/pending.svg",
-  cancelled: "/assets/icons/cancelled.svg",
+  pending: PendingIcon,
+  cancelled: CancelledIcon,
 };
