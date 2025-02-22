@@ -13,7 +13,6 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import { Control } from "react-hook-form";
 import "react-phone-number-input/style.css";
-import "react-datepicker/dist/react-datepicker.css";
 import PhoneInput from "react-phone-number-input";
 import DatePicker from "react-datepicker";
 import { Select, SelectContent, SelectTrigger, SelectValue } from "./ui/select";

@@ -1,13 +1,17 @@
+"use client";
 
+import { useSearchParams } from "next/navigation";
 import { PatientForm } from "@/components/forms/PatientForm";
 import { PasskeyModal } from "@/components/PasskeyModal";
 import Image from "next/image";
 import Link from "next/link";
-import LogoFull from "@/public/assets/icons/logo-full.svg"
-import Onboarding from "@/public/assets/images/onboarding-img.png"
+import LogoFull from "@/public/assets/icons/logo-full.svg";
+import Onboarding from "@/public/assets/images/onboarding-img.png";
 
-const Home = ({ searchParams }: SearchParamProps) => {
-  const isAdmin = searchParams?.admin === "true";
+const Home = () => {
+  const searchParams = useSearchParams();
+  const isAdmin = searchParams.get("admin") === "true";
+
   return (
     <div className="flex h-screen max-h-screen">
       {isAdmin && <PasskeyModal />}
@@ -44,6 +48,6 @@ const Home = ({ searchParams }: SearchParamProps) => {
       />
     </div>
   );
-}
+};
 
 export default Home;

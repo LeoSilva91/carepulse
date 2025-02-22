@@ -9,7 +9,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import "react-datepicker/dist/react-datepicker.css";
 import { Appointment } from "../../types/appwrite.types";
 import clsx from "clsx";
 import { AppointmentForm } from "./forms/AppoitmentForm";
